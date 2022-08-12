@@ -1,0 +1,23 @@
+{
+  "name": "techchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-project": "neutrino start --use @neutrinojs/react",
+    "start-dummy-api": "json-server --watch db.json",
+    "start": "npm run start-dummy-api & npm run start-project",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@neutrinojs/react": "^8.3.0",
+    "json-server": "^0.15.0",
+    "neutrino": "^8.3.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
